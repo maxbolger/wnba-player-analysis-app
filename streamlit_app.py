@@ -9,7 +9,7 @@ from court import draw_court
 from shotchart import shot_chart
 
 st.set_page_config(
-    page_title='WNBA App',
+    page_title='WNBA Player Analysis App',
     page_icon=":basketball:",
     layout="wide",
     initial_sidebar_state="auto",
