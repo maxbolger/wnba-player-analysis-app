@@ -728,7 +728,7 @@ else:
 footer = """
     <style>
     footer {visibility: hidden;}
-    # MainMenu {visibility: hidden;}
+    MainMenu {visibility: hidden;}
     
     # footer:hover,  footer:active {
     #     color: #fa4d00;
