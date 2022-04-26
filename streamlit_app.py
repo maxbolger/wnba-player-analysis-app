@@ -265,8 +265,8 @@ else:
 
     if len(df) == 0:
         st.error(
-            f'It looks your selected player ({player}) did not play in ' \
-            f'your selected time period ({start_y}-{end_y}). ' \
+            f'Oops! The selected player ({selection.get("player_name")}) did not play in ' \
+            f'the selected time period ({start_y}-{end_y}). ' \
             'Please try a different configuration.'
             )
         st.stop()
