@@ -147,6 +147,12 @@ with st.sidebar:
     with st.expander("Prominent WNBA Rule Changes"):
         st.markdown(
             """
+            <style>
+            u {
+                text-decoration: underline;
+                text-decoration-color: #fa4d00;
+                }
+            </style>
             <u>**1997-2003:**</u>
 
             <m>*3PT distance, 19'9"*</m><br />
